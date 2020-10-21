@@ -11,14 +11,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="41de4f25-fccb-4de9-82d9-27cdce01eb95" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/images/guz_museum.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/~$-94_Чумак_Лаба6.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/ІА-94_Чумак_Лаба6.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames_left.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames_top.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/ІА-94_Чумак_Лаба7.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/info.html" beforeDir="false" afterPath="$PROJECT_DIR$/info.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/ІА-94_Чумак_Лаба5.docx" beforeDir="false" afterPath="$PROJECT_DIR$/reports/ІА-94_Чумак_Лаба5.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/index_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/index_style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/ІА-94_Чумак_Лаба6.docx" beforeDir="false" afterPath="$PROJECT_DIR$/reports/ІА-94_Чумак_Лаба6.docx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,8 +27,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -71,7 +70,12 @@
       <workItem from="1601736361568" duration="389000" />
       <workItem from="1602079189010" duration="3952000" />
       <workItem from="1602134710109" duration="3420000" />
-      <workItem from="1602230119750" duration="4397000" />
+      <workItem from="1602230119750" duration="5436000" />
+      <workItem from="1602695998394" duration="48000" />
+      <workItem from="1602740538055" duration="2318000" />
+      <workItem from="1603207430579" duration="5542000" />
+      <workItem from="1603265015068" duration="32000" />
+      <workItem from="1603282977491" duration="694000" />
     </task>
     <servers />
   </component>
@@ -94,10 +98,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="740" y="279" key="FileChooserDialogImpl" timestamp="1601736752005">
+    <state x="740" y="279" key="FileChooserDialogImpl" timestamp="1603265044296">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="740" y="279" key="FileChooserDialogImpl/0.0.1920.1050/-1920.0.1536.834@0.0.1920.1050" timestamp="1601736752005" />
+    <state x="740" y="279" key="FileChooserDialogImpl/0.0.1920.1050/-1920.0.1536.834@0.0.1920.1050" timestamp="1603265044296" />
     <state x="333" y="0" width="1603" height="1038" key="dock-window-1" timestamp="1601485341956">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
