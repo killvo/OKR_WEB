@@ -6,7 +6,7 @@ body {
     width: 100%;
     background-color: cornflowerblue;
 }
-.header_title {
+#header_title {
     font-size: 24px;
     font-weight: bold;
     line-height: 28px;
@@ -37,7 +37,7 @@ li > a {
 
 .info_box {
     width: 300px;
-    height: 500px;
+    height: 550px;
     float: left;
     margin-left: 50px;
     margin-top: 50px;
@@ -79,9 +79,26 @@ li > a {
     height: 60px;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-size: 18pt;
+    font-style: normal;
+    line-height: 1;
+    text-align: center;
+}
 
+a {
+    font-style: normal;
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+}
 
-
+.content .info_box p {
+    font-style: normal;
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    text-align: justify;
+    text-indent: 1cm;
+}
 /*
 .footer {
     height: 100px;
