@@ -11,10 +11,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="41de4f25-fccb-4de9-82d9-27cdce01eb95" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/images/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/info_style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/info.html" beforeDir="false" afterPath="$PROJECT_DIR$/info.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/~$-94_Чумак_Лаба9.docx" beforeDir="false" afterPath="$PROJECT_DIR$/reports/~$-94_Чумак_Лаба9.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/ІА-94_Чумак_Лаба9.docx" beforeDir="false" afterPath="$PROJECT_DIR$/reports/ІА-94_Чумак_Лаба9.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/index_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/index_style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,8 +28,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -79,6 +82,8 @@
       <workItem from="1603391587411" duration="21000" />
       <workItem from="1603899228146" duration="3269000" />
       <workItem from="1603952993680" duration="1085000" />
+      <workItem from="1603958781309" duration="6981000" />
+      <workItem from="1603987713649" duration="1633000" />
     </task>
     <servers />
   </component>
@@ -109,5 +114,9 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="333" y="0" width="1603" height="1038" key="dock-window-1/0.0.1920.1050/-1920.0.1536.834@0.0.1920.1050" timestamp="1601485341956" />
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1603961597433">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1603961597433" />
   </component>
 </project>

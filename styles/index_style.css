@@ -1,21 +1,24 @@
 body {
-    background-color: azure;
+    background-image: url(../images/bg.jpg);
+    margin: 0;
 }
 .header {
     height: 70px;
     width: 100%;
     background-color: cornflowerblue;
 }
-#header_title {
+.header_title {
     font-size: 24px;
     font-weight: bold;
-    line-height: 28px;
     color: white;
     margin-left: 50px;
+    display: inline-block;
+    margin-top: 18px;
 }
 .menu {
     float: right;
     margin-right: 50px;
+    margin-top: 12px;
     color: white;
 }
 .menu > ul {
@@ -43,15 +46,44 @@ li > a {
     margin-top: 50px;
     padding: 10px;
     border: 1px solid grey;
+    background-color: white;
+    text-align: center;
 }
 
 /*----------------------------------Таблиця 1 i 2-----------------------------------------------*/
 .table_block1 table {
     margin: auto;
+    border: none;
+    border-spacing: 10px;
+    width: 80%;
+    background: #f0f8ff;
 }
-
+.table_block1 table tr {
+    background: white;
+}
 .table_block1 table td {
     width: 33%;
+
+}
+#t1_img {
+    background: #ffe4c4;
+
+}
+#t1_img img {
+    width: 260px;
+    height: 225px;
+    float: left;
+}
+#t1_h {
+    background: white;
+    text-align: center;
+}
+#t1_p p {
+    line-height: 1.4;
+    text-indent: 1.3cm;
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 
@@ -61,29 +93,44 @@ li > a {
 
 .table_block2 table {
     margin: auto;
+    border: 2px solid #191970;
+    width: 80%;
+    background: #f8f8ff;
+    border-collapse: collapse;
 }
-
+.table_block2 table td {
+    border: 2px solid grey;
+}
+.table_block2 table th {
+    border: 2px solid grey;
+    font-style: italic;
+    font-family: Arial, sans-serif;
+}
 .t_header {
     color: white;
+    vertical-align: center;
+    background: #6495ed;
 }
-
 .t_header > th {
     height: 30px;
 }
-
 .schedule > th {
     width: 5%;
 }
-
+.t_info {
+    vertical-align: center;
+    text-align: center;
+}
 .t_info > td {
     height: 60px;
 }
+
 
 h1, h2, h3, h4, h5, h6 {
     font-size: 18pt;
     font-style: normal;
     line-height: 1;
-    text-align: center;
+
 }
 
 a {
