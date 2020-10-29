@@ -11,13 +11,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="41de4f25-fccb-4de9-82d9-27cdce01eb95" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/reports/~$-94_Чумак_Лаба8.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/ІА-94_Чумак_Лаба8.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frames.html" beforeDir="false" afterPath="$PROJECT_DIR$/frames.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frames_left.html" beforeDir="false" afterPath="$PROJECT_DIR$/frames_left.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/info.html" beforeDir="false" afterPath="$PROJECT_DIR$/info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/register.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/index_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/index_style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,6 +78,7 @@
       <workItem from="1603388265443" duration="3109000" />
       <workItem from="1603391587411" duration="21000" />
       <workItem from="1603899228146" duration="3269000" />
+      <workItem from="1603952993680" duration="1085000" />
     </task>
     <servers />
   </component>
