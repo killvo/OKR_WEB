@@ -10,6 +10,17 @@ body {
 h4 {
     color: darkslategrey;
 }
+
+b + i {
+    color: red;
+    font-size: 12pt;
+}
+h4 + i, i + i {
+    color: blueviolet;
+    font-size: 13pt;
+    font-family: sans-serif;
+}
+
 a:hover {
     color: cornflowerblue;
 }

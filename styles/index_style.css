@@ -63,13 +63,11 @@ li > a {
 }
 .table_block1 table td {
     width: 33%;
-
 }
 #t1_img {
     background: #ffe4c4;
-
 }
-#t1_img img {
+#t1_img td > img {
     width: 260px;
     height: 225px;
     float: left;
