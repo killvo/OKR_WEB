@@ -21,14 +21,21 @@ h4 + i, i + i {
     font-family: sans-serif;
 }
 
+a:link {
+    color: black;
+}
 a:hover {
     color: cornflowerblue;
 }
 a:visited {
     color: grey;
 }
-a {
-    color: black;
+a:active {
+    color: orange;
+}
+
+.img1 {
+    float: right;
 }
 
 .ol_list {
@@ -70,4 +77,10 @@ a {
     vertical-align: middle;
     background-color: #FF7A2F;
     margin-right:5px;
+}
+ul > li:after {
+    content: "псевдоелемент After";
+    margin-left: 20px;
+    font-style: italic;
+    background-color: bisque;
 }
