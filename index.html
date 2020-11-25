@@ -5,6 +5,7 @@
     <title>Музеї України та світу</title>
     <link rel="stylesheet" type="text/css" href="styles/index_style.css">
     <meta name="author" content="Volodymyr Chumak">
+    <script src="scripts.js"></script>
 </head>
 <body vlink="#808080" alink="#7fffd4">
 <div class="header">
@@ -188,6 +189,42 @@
                 <td>10:00- 13:00</td>
             </tr>
         </table>
+    </div>
+
+
+    <script>
+        function promptButton() {
+            let x = prompt('Уведіть ваш вік')
+            if (x!==null) {
+                alert(`Ви ввели число ${x}`)
+            } else
+                alert('Не залишайте поле порожнім!')
+        }
+
+        function compare() {
+            let str = prompt('Ведіть два рядки для порівняння, розділивши їх символом |')
+            if (str === '') {
+                alert('Не залишайте рядок порожнім!')
+            } else {
+                let strings = str.split('|')
+                let str0Length = strings[0].length
+                let str1Length = strings[1].length
+                let result = str0Length > str1Length ? strings[0] : strings[1]
+                alert(`Найдовший рядок: ${result}`)
+            }
+        }
+    </script>
+    <div class="js_practice">
+        <button onclick="alert('Ви натиснули на кнопку alert!')">alert</button>
+        <button onclick="promptButton()">prompt</button>
+        <button onclick="confirm('Вам виповнилось 18 років?')">confirm</button>
+        <hr>
+        <h4>Порівняння двох рядків</h4>
+        <button onclick="compare()">Порівняти</button>
+        <hr>
+        <button onclick="diag()">Цикл</button>
+        <hr>
+        <button onclick="devInfo('Чумак', 'Володимир')">Інформація</button>
     </div>
 </div>
 

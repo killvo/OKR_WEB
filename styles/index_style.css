@@ -150,6 +150,21 @@ a {
 .info_box:first-child {
     background-color: darkgrey;
 }
+
+.javascript {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.js_practice button {
+    width: 90px;
+    height: 40px;
+    font-size: medium;
+    color: white;
+    background-color: cornflowerblue;
+}
 /*
 .footer {
     height: 100px;
