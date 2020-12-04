@@ -48,7 +48,7 @@ li > a:hover {
     margin-left: 50px;
     margin-top: 50px;
     padding: 10px;
-    border: 1px solid grey;
+    border: 3px solid grey;
     background-color: white;
     text-align: center;
 }
@@ -147,15 +147,14 @@ a {
     text-indent: 1cm;
 }
 
-.info_box:first-child {
+/*.info_box:first-child {
     background-color: darkgrey;
-}
+}*/
 
-.javascript {
+.js_practice {
     width: 100%;
     max-width: 1200px;
-    margin: 0 auto;
-    margin-top: 50px;
+    margin: 50px auto 0;
 }
 
 .js_practice button {
@@ -165,6 +164,21 @@ a {
     color: white;
     background-color: cornflowerblue;
 }
+
+.dom {
+    width: 100%;
+    max-width: 1200px;
+    margin: 50px auto 0;
+}
+
+.dom button {
+    width: 120px;
+    height: 40px;
+    font-size: medium;
+    color: white;
+    background-color: #146cf5;
+}
+
 /*
 .footer {
     height: 100px;

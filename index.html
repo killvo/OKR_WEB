@@ -8,6 +8,7 @@
     <script src="scripts.js"></script>
 </head>
 <body vlink="#808080" alink="#7fffd4">
+<!--example-->
 <div class="header">
     <div class="header_title">Музеї України та світу</div>
     <div class="menu">
@@ -195,13 +196,10 @@
     <script>
         function promptButton() {
             let x = prompt('Уведіть ваш вік')
-            if (x!==null) {
-                alert(`Ви ввели число ${x}`)
-            } else
-                alert('Не залишайте поле порожнім!')
+            if (x!=='') alert(`Ви ввели число ${x}`)
+             else alert('Не залишайте поле порожнім!')
         }
-
-        function compare() {
+        function compareLength() {
             let str = prompt('Ведіть два рядки для порівняння, розділивши їх символом |')
             if (str === '') {
                 alert('Не залишайте рядок порожнім!')
@@ -213,6 +211,16 @@
                 alert(`Найдовший рядок: ${result}`)
             }
         }
+        function compareAlp() {
+            let str = prompt('Ведіть два рядки для порівняння, розділивши їх символом |')
+            if (str === '') {
+                alert('Не залишайте рядок порожнім!')
+            } else {
+                let strings = str.split('|')
+                let result = strings[0] > strings[1] ? strings[0] : strings[1]
+                alert(`Найбільший рядок: ${result}`)
+            }
+        }
     </script>
     <div class="js_practice">
         <button onclick="alert('Ви натиснули на кнопку alert!')">alert</button>
@@ -220,12 +228,54 @@
         <button onclick="confirm('Вам виповнилось 18 років?')">confirm</button>
         <hr>
         <h4>Порівняння двох рядків</h4>
-        <button onclick="compare()">Порівняти</button>
+        <button onclick="compareLength()">По довжині</button>
+        <button onclick="compareAlp()">По алфівіту</button>
         <hr>
         <button onclick="diag()">Цикл</button>
         <hr>
         <button onclick="devInfo('Чумак', 'Володимир')">Інформація</button>
+        <hr>
     </div>
+
+    <div class="dom">
+        <button onclick="changeBack()">Змінити фон</button>
+        <button onclick="relocate()">location</button>
+        <button id="bDOM" onclick="paintBlockById('bDOM')">getElementById</button>
+        <button onclick="changePrice()">Вартість</button> <hr>
+        <button onclick="alert(document.getElementById('bDOM').outerHTML)">outerHTML</button>
+        <button onclick="alert(document.body.firstChild.data)">data/nodeValue</button>
+        <button onclick="createBefore()">createBefore</button>
+        <button onclick="remove()">remove</button>
+        <button onclick="replace()">replace</button><br />
+        <script>
+            document.write("<font size='5px'>Використання функції <b>write</b> для вставки до <b>HTML</b> документу</font>")
+        </script>
+        <button onclick="showTextContent()">textContent</button>
+        <hr>
+    </div>
+
+    <script>
+        let elems = document.querySelectorAll('.info_box');
+        for (let ib of elems) {
+            ib.addEventListener('mouseover', ibChangeBack);
+            ib.addEventListener('mouseover', ibChangeBorder);
+            ib.addEventListener('mouseout', ibOut);
+        }
+
+        let h = document.querySelector('.header');
+        let head = new Header();
+        h.addEventListener('mousedown', head);
+        h.addEventListener('mouseup', head);
+        function removeEL() {
+            h.removeEventListener('mousedown', head);
+            h.removeEventListener('mouseup', head);
+        }
+    </script>
+
+    <div class="js_practice">
+        <button onclick="removeEL()">removeEL</button>
+    </div>
+
 </div>
 
 <!--
