@@ -5,6 +5,7 @@
     <title>Інформація</title>
     <meta name="author" content="Volodymyr Chumak">
     <link rel="stylesheet" type="text/css" href="styles/info_style.css">
+    <script src="scripts.js"></script>
 </head>
 <body vlink="red" alink="#f8f8ff">
 
@@ -31,6 +32,7 @@
     </p>
     <hr>
     <center><h4>Найвідвідуваніші музеї</h4></center>
+    <div class="block_list">
     <p>
     <ol class="ol_list">
         <li>Лувр (Париж)</li>
@@ -39,6 +41,15 @@
         <li>Національний музей авіації і космонавтики США (Вашингтон)</li>
     </ol>
     </p>
+    </div>
+    <script>
+        let elem = document.querySelector('.ol_list');
+        // Створимо екземпляр класу List, який є обробником подій
+        let list = new List(elem);
+        // додамо обробник подій для списку .ol_list
+        elem.addEventListener('mouseover', list);
+        elem.addEventListener('mouseout', list);
+    </script>
 
     <hr>
     <center><h4>Зміст</h4></center>

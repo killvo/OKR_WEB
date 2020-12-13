@@ -98,10 +98,10 @@ class Header {
     }
 
     paintHeader() {
-        h.style.background = "orange";
+        this.h.style.background = "orange";
     }
     undo() {
-        h.style.background = "cornflowerblue";
+        this.h.style.background = "cornflowerblue";
     }
 
     handleEvent(event) {
@@ -117,4 +117,97 @@ class Header {
                 break
         }
     }
+}
+
+function headerHighlight() {
+    let h = document.querySelector('.header');
+    let head = new Header();
+    h.addEventListener('mousedown', head);
+    h.addEventListener('mouseup', head);
+}
+
+function removeEL() {
+    let h = document.querySelector('.header');
+    h.removeEventListener('mousedown', head);
+    h.removeEventListener('mouseup', head);
+}
+
+function infoBoxHighlight() {
+    let elems = document.querySelectorAll('.info_box');
+    for (let ib of elems) {
+        ib.addEventListener('mouseover', ibChangeBack);
+        ib.addEventListener('mouseover', ibChangeBorder);
+        ib.addEventListener('mouseout', ibOut);
+    }
+}
+
+function infoBoxHighlightOff() {
+    let elems = document.querySelectorAll('.info_box');
+    for (let ib of elems) {
+        ib.removeEventListener('mouseover', ibChangeBack);
+        ib.removeEventListener('mouseover', ibChangeBorder);
+        ib.removeEventListener('mouseout', ibOut);
+    }
+}
+
+// Лабораторна робота №15
+// 1. Підсвічування елементів списку
+class List {
+    constructor(elem) {
+        this.l = elem;
+    }
+
+    handleEvent(event) {
+        if (event.target.tagName !== 'LI') return;
+        switch (event.type) {
+            case 'mouseover':
+                this.highlight(event);
+                break;
+            case 'mouseout':
+                this.unHighlight(event);
+                break;
+        }
+    }
+
+    highlight(event) {
+        event.target.className = "list_js";
+    }
+
+    unHighlight(event) {
+        event.target.className = "";
+    }
+}
+// 2. Меню
+class Menu {
+    constructor(elem) {
+        this.m = elem;
+        elem.onclick = this.handleEvent.bind(this);
+    }
+
+    handleEvent(event) {
+        let action = event.target.dataset.action;
+        if (action) {
+            this[action]();
+        }
+    }
+
+    highlightOn() {
+        infoBoxHighlight();
+    }
+
+    highlightOff() {
+        infoBoxHighlightOff();
+    }
+
+    tableEdit() {
+        changePrice();
+    }
+}
+
+// 3. Поведінка
+function showHide(event) {
+    let c = event.target.dataset.show;
+    if (!c) return;
+    let elem = document.querySelector(`.${c}`);
+    elem.hidden = !elem.hidden;
 }

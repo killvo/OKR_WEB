@@ -11,14 +11,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="41de4f25-fccb-4de9-82d9-27cdce01eb95" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/images/laba13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/ІА-94_Чумак_Лаба13.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/ІА-94_Чумак_Лаба14.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/~$-94_Чумак_Лаба15.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/ІА-94_Чумак_Лаба15.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/ІА-94_Чумак_Лаба12.docx" beforeDir="false" afterPath="$PROJECT_DIR$/reports/ІА-94_Чумак_Лаба12.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/info.html" beforeDir="false" afterPath="$PROJECT_DIR$/info.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/index_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/index_style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/info_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/info_style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,6 +100,11 @@
       <workItem from="1606942490032" duration="91000" />
       <workItem from="1606977040568" duration="893000" />
       <workItem from="1607085106875" duration="6323000" />
+      <workItem from="1607529123244" duration="741000" />
+      <workItem from="1607542215123" duration="525000" />
+      <workItem from="1607582501221" duration="988000" />
+      <workItem from="1607773823622" duration="12199000" />
+      <workItem from="1607855375888" duration="1562000" />
     </task>
     <servers />
   </component>

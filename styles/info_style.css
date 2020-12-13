@@ -38,21 +38,39 @@ a:active {
     float: right;
 }
 
+.block_list {
+    height: 160px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 .ol_list {
     font-size: 16px;
-    width: 400px;
+    width: 600px;
     margin-left: 20px;
+
+    counter-reset: item;
 }
 .ol_list li {
-    margin-bottom: 8px;
-    color: black;
+    margin-bottom: 15px;
     padding: 5px;
     text-decoration: none;
     font-style: italic;
     font-family: Montserrat, sans-serif;
+
+    display: block;
 }
-
-
+.ol_list li:before {
+    content: counter(item) ". ";
+    counter-increment: item;
+    color: black;
+}
+/* Лабораторна робота №15 */
+.list_js {
+    background: #0bbce5;
+    font-size: 18px;
+    color: #ffffff;
+}
+/* ----------------------- */
 .ul_list {
     list-style-type: none;
 }
