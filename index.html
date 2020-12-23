@@ -16,7 +16,10 @@
         <button data-action="highlightOn">Увімкнути підсвічування</button>
         <button data-action="highlightOff">Вимкнути підсвічування</button>
         <button data-action="tableEdit">Зміна таблиці</button>
+        <button data-action="targetRel">target/relativeTarget</button>
     </div>
+
+    <div id="showTargets" style="float: left; margin-left: 30px; margin-top: 17px; color: white; font-size: large"></div>
     <script>
         let m = document.querySelector('.menu_js');
         let menu = new Menu(m);
@@ -270,16 +273,21 @@
         document.addEventListener("DOMContentLoaded", function() {
             //headerHighlight();
             //infoBoxHighlight();
-
         });
-
-
     </script>
 
     <div class="js_practice">
         <button onclick="removeEL()">removeEL</button>
     </div>
 
+    <div class="dragDrop">
+        <button id="moveBtn">test</button>
+    </div>
+
+    <script>
+        let mb = document.getElementById('moveBtn');
+        move(mb);
+    </script>
 </div>
 
 <!--

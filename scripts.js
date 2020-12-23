@@ -202,6 +202,14 @@ class Menu {
     tableEdit() {
         changePrice();
     }
+
+    targetRel() {
+        let c = document.querySelector('.content');
+        let it = new InfoTarget();
+        c.addEventListener("mouseover", it);
+        c.addEventListener("mouseout", it);
+
+    }
 }
 
 // 3. Поведінка
@@ -211,3 +219,67 @@ function showHide(event) {
     let elem = document.querySelector(`.${c}`);
     elem.hidden = !elem.hidden;
 }
+
+// Лабораторна робота №16
+// 1. event.target / event.relatedTarget
+class InfoTarget {
+    handleEvent(event) {
+        let target = event.target;
+        let relatedTarget = event.relatedTarget;
+
+        switch (event.type) {
+            case 'mouseover':
+                this.highlightOver(target, relatedTarget);
+                break;
+            case 'mouseout':
+                this.highlightOut(target, relatedTarget);
+                break;
+        }
+    }
+
+    highlightOver(target, relatedTarget) {
+        target.style.background = "red";
+        relatedTarget.style.background = "black";
+
+        let s = document.getElementById('showTargets');
+        s.innerHTML = "Значення target: " + target.nodeName + "<br>" + "Значення relatedTarget: " + relatedTarget.nodeName;
+    }
+
+    highlightOut(target, relatedTarget) {
+        target.style.background = "#c6c1c0";
+        relatedTarget.style.background = "#c6c1c0";
+    }
+}
+
+// 2. Перетягування об'єкта
+function move(elem) {
+    function buttonMove() {
+        let marginX = event.clientX - elem.getBoundingClientRect().left;
+        let marginY = event.clientY - elem.getBoundingClientRect().top;
+
+        prepareToDrag(elem);
+
+        function onMouseMove(event) {
+            elem.style.left = event.pageX - marginX + 'px';
+            elem.style.top = event.pageY - marginY + 'px';
+        }
+        document.addEventListener('mousemove', onMouseMove);
+
+        elem.onmouseup = function() {
+            document.removeEventListener('mousemove', onMouseMove);
+        };
+    }
+
+    function prepareToDrag(elem) {
+        elem.style.position = 'absolute';
+        elem.style.zIndex = 1000;
+        document.body.append(elem);
+    }
+
+    elem.ondragstart = function() {
+        return false;
+    };
+
+    elem.onmousedown = buttonMove;
+}
+

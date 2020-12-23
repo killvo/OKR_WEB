@@ -7,6 +7,7 @@ body {
     width: 100%;
     background-color: cornflowerblue;
     position: fixed;
+
 }
 .header_title {
     font-size: 24px;
@@ -201,6 +202,20 @@ a {
     background-color: #146cf5;
 }
 
+.dragDrop {
+    height: 800px;
+    background-color: white;
+    margin-top: 50px;
+    border: 3px solid black;
+}
+
+#moveBtn {
+    width: 100px;
+    height: 50px;
+    font-size: medium;
+    color: white;
+    background-color: #8e0ef1;
+}
 /*
 .footer {
     height: 100px;
